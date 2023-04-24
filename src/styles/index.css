@@ -1,12 +1,55 @@
+#App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+  }
+  body{
+    background-color: rgb(66, 127, 184);
+  }
+  input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-left: 45%;
+    border-radius: 3px;
+  }
+  
+  button {
+    margin-left: 2%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  h1{
+    margin-left: 45%;
+  }
+p{
+  margin-left: 45%;
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    margin: 5%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+  }
+  
+  .delete-icon {
+    cursor: pointer;
+    padding: 0.25rem;
+    visibility: hidden;
+  }
+  
+  li:hover .delete-icon {
+    visibility: visible;
+  }
+  
